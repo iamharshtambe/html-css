@@ -13,8 +13,46 @@
       <hr />
 
       <div style="display: flex; flex-direction: row">
-         <div style="background-color: red">Div 1</div>
-         <div style="background-color: yellow">Div 2</div>
+         <div style="background-color: red; width: 100px">100px</div>
+         <div style="background-color: yellow; flex: 1">Flex 1</div>
+      </div>
+      <hr />
+
+      <div style="display: flex; flex-direction: row">
+         <div style="background-color: red; width: 100px">100px</div>
+         <div style="background-color: yellow; flex: 1">Flex 1</div>
+         <div style="background-color: red; flex: 2">Flex 2</div>
+      </div>
+      <hr />
+
+      <div
+         style="
+            height: 50px;
+            border: 2px solid gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+         "
+      >
+         <div style="background-color: pink; width: 100px">100px</div>
+         <div style="background-color: yellow; width: 100px">100px</div>
+         <div style="background-color: pink; width: 100px">100px</div>
+      </div>
+      <hr />
+
+      <div
+         style="
+            height: 50px;
+            border: 2px solid gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+         "
+      >
+         <div style="background-color: pink; width: 100px">100px</div>
+         <div style="background-color: yellow; width: 100px">100px</div>
+         <div style="background-color: pink; width: 100px">100px</div>
       </div>
    </body>
 </html>
