@@ -2,6 +2,7 @@
    height: 55px;
    display: flex;
    justify-content: space-between;
+   margin-bottom: 20px;
 }
 
 .left-section {
@@ -20,7 +21,11 @@
 
 .right-section {
    width: 200px;
-   background-color: pink;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 20px;
+   flex-shrink: 0;
 }
 
 .hamburger-menu {
@@ -34,7 +39,8 @@
 }
 
 .search-bar {
-   height: 37px;
+   height: 40px;
+   width: 0;
    flex: 1;
    padding-left: 10px;
    font-size: 16px;
@@ -53,7 +59,7 @@
 }
 
 .search-icon-container {
-   height: 40px;
+   height: 44px;
    width: 60px;
    background-color: rgb(240, 240, 240);
    border: 1px solid gray;
@@ -70,4 +76,22 @@
    margin-left: 10px;
    height: 40px;
    width: 40px;
+}
+
+.upload {
+   height: 28px;
+}
+
+.youtube-apps {
+   height: 28px;
+}
+
+.notifications {
+   height: 28px;
+}
+
+.channel-profile {
+   height: 34px;
+   border-radius: 50%;
+   margin-right: 10px;
 }
