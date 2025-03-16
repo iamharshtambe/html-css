@@ -1,8 +1,16 @@
 .header {
    height: 55px;
+   background-color: white;
    display: flex;
    justify-content: space-between;
    margin-bottom: 20px;
+   margin-left: 9px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 70px;
+   border-bottom: 1px solid rgb(215, 215, 215);
 }
 
 .left-section {
